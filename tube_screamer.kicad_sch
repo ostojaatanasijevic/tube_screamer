@@ -2093,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.725 178.435) (xy 85.725 179.07)
+			(xy 92.71 184.15) (xy 92.71 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2300,6 +2300,16 @@
 			(type default)
 		)
 		(uuid "791f71d7-2ce4-4bb3-94e6-fa62532dd758")
+	)
+	(wire
+		(pts
+			(xy 85.725 184.15) (xy 85.725 178.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79e4f5da-806e-41b4-9a90-d4dcdd724237")
 	)
 	(wire
 		(pts
@@ -2680,6 +2690,16 @@
 			(type default)
 		)
 		(uuid "d8a838c4-5c6a-486d-ad34-1b3b7627ad59")
+	)
+	(wire
+		(pts
+			(xy 92.71 184.15) (xy 85.725 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db656b5d-f00e-4bcf-bbf2-5c5e77587c51")
 	)
 	(wire
 		(pts
@@ -5120,7 +5140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 129.54 82.55 0)
 			(effects
 				(font
@@ -5753,7 +5773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 104.775 161.29 0)
 			(effects
 				(font
@@ -6196,7 +6216,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 85.725 179.07 0)
+		(at 92.71 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6205,7 +6225,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1b28e17-049a-4b8b-b8b9-194cc7bd8769")
 		(property "Reference" "#GND04"
-			(at 85.725 181.61 0)
+			(at 92.71 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +6234,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 85.725 177.165 0)
+			(at 92.71 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.725 179.07 0)
+			(at 92.71 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +6251,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.725 179.07 0)
+			(at 92.71 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6260,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.725 179.07 0)
+			(at 92.71 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,7 +6559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.514x3.2mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 186.055 85.09 0)
 			(effects
 				(font
