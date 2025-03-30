@@ -3037,7 +3037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
 			(at 34.29 90.17 0)
 			(effects
 				(font
@@ -3647,15 +3647,15 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 193.04 69.85 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2327be21-ef2a-46ee-9c77-f24e080ff69e")
 		(property "Reference" "RV3"
-			(at 190.5 68.5799 0)
+			(at 190.5 71.1201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +3664,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 190.5 71.1199 0)
+			(at 190.5 68.5801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +4236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
 			(at 274.32 73.66 0)
 			(effects
 				(font
@@ -4444,7 +4444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
 			(at 29.21 153.67 0)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
 			(at 274.32 105.41 0)
 			(effects
 				(font
@@ -5503,13 +5503,13 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 110.49 29.21 270)
+		(at 110.49 29.21 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "727e34ef-2808-457d-8f46-dbc6e28f254d")
 		(property "Reference" "RV1"
 			(at 110.49 22.86 90)
@@ -6948,7 +6948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
 			(at 30.48 177.8 0)
 			(effects
 				(font
@@ -7144,7 +7144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
 			(at 34.29 54.61 0)
 			(effects
 				(font
