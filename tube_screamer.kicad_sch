@@ -1307,6 +1307,12 @@
 		(uuid "2d0a6ac4-5c13-41f3-9052-4e1a72534007")
 	)
 	(junction
+		(at 74.93 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3617625d-c6f5-4f4b-adaf-8b90cad23d1a")
+	)
+	(junction
 		(at 234.95 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1359,6 +1365,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd5bf42f-ee22-4ed2-8ea3-4f0370e9d58e")
+	)
+	(junction
+		(at 212.09 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3e88d91-dec2-4b21-a005-5711db6ff655")
 	)
 	(junction
 		(at 121.92 163.195)
@@ -1487,6 +1499,16 @@
 			(type default)
 		)
 		(uuid "0a3d391b-aef2-42ec-b611-855ac8a59b06")
+	)
+	(wire
+		(pts
+			(xy 74.93 81.28) (xy 74.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a5885be-87ea-448c-b0bc-8ed2672fbcc2")
 	)
 	(wire
 		(pts
@@ -2020,6 +2042,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 82.55) (xy 212.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8120afc7-3392-450f-be2c-d1495707896a")
+	)
+	(wire
+		(pts
 			(xy 85.09 156.21) (xy 73.66 156.21)
 		)
 		(stroke
@@ -2130,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 68.58) (xy 78.74 68.58)
+			(xy 66.04 68.58) (xy 74.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2557,6 +2589,16 @@
 			(type default)
 		)
 		(uuid "fc502be5-8618-4304-8fca-338117854cfe")
+	)
+	(wire
+		(pts
+			(xy 74.93 68.58) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd043f1d-06fd-4e39-9e41-862520a0c14a")
 	)
 	(wire
 		(pts
@@ -6083,6 +6125,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 74.93 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dddbbd2-4a5f-41ca-8f97-29ef8526e9a7")
+		(property "Reference" "TP13"
+			(at 77.47 83.3119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "bypass_in"
+			(at 77.47 85.8519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12fd6e38-0e54-4572-98a9-fd7a400122de")
+		)
+		(instances
+			(project "tube_screamer"
+				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 130.81 40.64 180)
 		(unit 1)
@@ -6698,28 +6806,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "efa31a2c-a697-4cda-8ea9-9a8a3fa3267b")
+			(uuid "efa31a2c-a697-4cda-8ea9-9a8a3fa3267c")
 		)
 		(pin "3"
-			(uuid "95bb6381-1748-405e-a036-e1e60b6ff251")
+			(uuid "95bb6381-1748-405e-a036-e1e60b6ff252")
 		)
 		(pin "5"
-			(uuid "1c70e371-1fe6-4932-8e4d-283e8a3af9a7")
+			(uuid "1c70e371-1fe6-4932-8e4d-283e8a3af9a8")
 		)
 		(pin "1"
-			(uuid "42320196-61e6-4222-874c-d9ab68222d6f")
+			(uuid "42320196-61e6-4222-874c-d9ab68222d70")
 		)
 		(pin "2"
-			(uuid "027f8edb-84b0-4cb8-9a90-ec69ba4364fe")
+			(uuid "027f8edb-84b0-4cb8-9a90-ec69ba4364ff")
 		)
 		(pin "6"
-			(uuid "af5b6590-b002-416a-8931-9fa4c7f329d7")
+			(uuid "af5b6590-b002-416a-8931-9fa4c7f329d8")
 		)
 		(pin "7"
-			(uuid "8a2be608-a3bf-4089-ae63-6868b3891123")
+			(uuid "8a2be608-a3bf-4089-ae63-6868b3891124")
 		)
 		(pin "8"
-			(uuid "40ef4303-54e5-4670-9d72-0ea26518b814")
+			(uuid "40ef4303-54e5-4670-9d72-0ea26518b815")
 		)
 		(instances
 			(project ""
@@ -6793,28 +6901,28 @@
 			)
 		)
 		(pin "4"
-			(uuid "efa31a2c-a697-4cda-8ea9-9a8a3fa3267b")
+			(uuid "efa31a2c-a697-4cda-8ea9-9a8a3fa3267d")
 		)
 		(pin "3"
-			(uuid "95bb6381-1748-405e-a036-e1e60b6ff251")
+			(uuid "95bb6381-1748-405e-a036-e1e60b6ff253")
 		)
 		(pin "5"
-			(uuid "1c70e371-1fe6-4932-8e4d-283e8a3af9a7")
+			(uuid "1c70e371-1fe6-4932-8e4d-283e8a3af9a9")
 		)
 		(pin "1"
-			(uuid "42320196-61e6-4222-874c-d9ab68222d6f")
+			(uuid "42320196-61e6-4222-874c-d9ab68222d71")
 		)
 		(pin "2"
-			(uuid "027f8edb-84b0-4cb8-9a90-ec69ba4364fe")
+			(uuid "027f8edb-84b0-4cb8-9a90-ec69ba436500")
 		)
 		(pin "6"
-			(uuid "af5b6590-b002-416a-8931-9fa4c7f329d7")
+			(uuid "af5b6590-b002-416a-8931-9fa4c7f329d9")
 		)
 		(pin "7"
-			(uuid "8a2be608-a3bf-4089-ae63-6868b3891123")
+			(uuid "8a2be608-a3bf-4089-ae63-6868b3891125")
 		)
 		(pin "8"
-			(uuid "40ef4303-54e5-4670-9d72-0ea26518b814")
+			(uuid "40ef4303-54e5-4670-9d72-0ea26518b816")
 		)
 		(instances
 			(project ""
@@ -7816,6 +7924,72 @@
 			(project "tube_screamer"
 				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 212.09 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd982390-9039-46b4-b7eb-1e9c50cc6c07")
+		(property "Reference" "TP14"
+			(at 214.63 84.5819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "bypass_out"
+			(at 214.63 87.1219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa8763d7-f6d7-4a26-ac15-82d356b2edae")
+		)
+		(instances
+			(project "tube_screamer"
+				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
