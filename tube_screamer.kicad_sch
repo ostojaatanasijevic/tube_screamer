@@ -3168,7 +3168,7 @@
 		)
 		(uuid fe9f307e-342f-4b12-9768-d308c32d730a)
 	)
-	(text "Input gain stage"
+	(text "Input buffer"
 		(exclude_from_sim no)
 		(at 29.21 15.24 0)
 		(effects
@@ -3199,7 +3199,7 @@
 		)
 		(uuid "c9a7415f-e1fa-4c37-9dae-619c1f5afae4")
 	)
-	(text "Output gain stage and selection switch"
+	(text "Output buffer and selection switch"
 		(exclude_from_sim no)
 		(at 148.59 83.566 0)
 		(effects
