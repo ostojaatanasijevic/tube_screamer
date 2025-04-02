@@ -3275,6 +3275,12 @@
 		(uuid "2d0a6ac4-5c13-41f3-9052-4e1a72534007")
 	)
 	(junction
+		(at 41.91 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c1fa0e4-e3ba-40c7-9675-721756b13b73")
+	)
+	(junction
 		(at 205.74 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3315,6 +3321,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6de3265c-f4b0-411b-9a6e-70627457b3fb")
+	)
+	(junction
+		(at 254 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df6500d-11ce-4c80-8122-ca9137361fae")
 	)
 	(junction
 		(at 160.02 38.1)
@@ -3491,6 +3503,16 @@
 			(type default)
 		)
 		(uuid "0c109a0b-01d2-44ff-a8ff-5d5b2e787670")
+	)
+	(wire
+		(pts
+			(xy 36.83 57.15) (xy 41.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4c12b7-b386-45cf-9dca-5ab31c794d2e")
 	)
 	(wire
 		(pts
@@ -3734,16 +3756,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 52.07) (xy 41.91 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3345800f-9449-4172-a296-2b56ff6bdcba")
-	)
-	(wire
-		(pts
 			(xy 138.43 163.83) (xy 125.73 163.83)
 		)
 		(stroke
@@ -3944,7 +3956,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 127) (xy 252.73 127)
+			(xy 257.81 127) (xy 254 127)
 		)
 		(stroke
 			(width 0)
@@ -4021,6 +4033,16 @@
 			(type default)
 		)
 		(uuid "541419b2-45bd-473b-89c2-d75af0e99f5f")
+	)
+	(wire
+		(pts
+			(xy 41.91 57.15) (xy 41.91 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5639af40-1c5c-4085-81a6-c0c713099fdf")
 	)
 	(wire
 		(pts
@@ -4384,6 +4406,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 52.07) (xy 41.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6ff761-4e32-4f76-884a-d495a1de2dcd")
+	)
+	(wire
+		(pts
 			(xy 207.01 34.29) (xy 210.82 34.29)
 		)
 		(stroke
@@ -4444,7 +4476,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 127) (xy 252.73 130.81)
+			(xy 254 127) (xy 254 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4754,6 +4786,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 132.08) (xy 254 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8cef55-9bb7-4df4-b509-2eac8701d4f5")
+	)
+	(wire
+		(pts
 			(xy 143.51 62.23) (xy 142.875 62.23)
 		)
 		(stroke
@@ -4841,6 +4883,16 @@
 			(type default)
 		)
 		(uuid "eb61372a-762e-4c2b-a764-1b7366641ae9")
+	)
+	(wire
+		(pts
+			(xy 254 132.08) (xy 257.81 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1628a7-093d-4ad5-af14-83ff4aefd06a")
 	)
 	(wire
 		(pts
@@ -8475,7 +8527,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 41.91 55.88 0)
+		(at 41.91 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8483,7 +8535,7 @@
 		(dnp no)
 		(uuid "69c48298-f004-43b9-9bb1-ab8f148dc03d")
 		(property "Reference" "#GND025"
-			(at 41.91 58.42 0)
+			(at 41.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,7 +8544,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 43.18 54.61 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8500,7 +8552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 55.88 0)
+			(at 41.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8509,7 +8561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 55.88 0)
+			(at 41.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,7 +8570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 55.88 0)
+			(at 41.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,7 +11544,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 252.73 130.81 0)
+		(at 254 135.89 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11501,7 +11553,7 @@
 		(dnp no)
 		(uuid "cf7bf835-e85c-484f-aea8-b4f75da30b85")
 		(property "Reference" "#GND026"
-			(at 252.73 133.35 0)
+			(at 254 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +11562,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 251.46 129.54 0)
+			(at 252.73 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 130.81 0)
+			(at 254 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,7 +11579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 130.81 0)
+			(at 254 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11536,7 +11588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 130.81 0)
+			(at 254 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
