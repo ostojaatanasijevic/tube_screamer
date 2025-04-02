@@ -20,17 +20,17 @@
       "zones": 0.6
     },
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
       "graphics": true,
-      "keepouts": true,
+      "keepouts": false,
       "lockedItems": true,
-      "otherItems": true,
-      "pads": true,
+      "otherItems": false,
+      "pads": false,
       "text": false,
-      "tracks": true,
-      "vias": true,
-      "zones": false
+      "tracks": false,
+      "vias": false,
+      "zones": true
     },
     "visible_items": [
       "vias",

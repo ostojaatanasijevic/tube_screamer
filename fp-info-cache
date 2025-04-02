@@ -1,4 +1,4 @@
-24735605853036833
+26153209014015
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99511,3 +99511,108 @@ Varistor VF
 0
 2
 2
+pedale
+BatteryHolder_Eagle_12BH611-GR
+https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf
+9V Battery Holder
+0
+2
+2
+pedale
+Jack_6.35mm_Neutrik_NMJ6HHD2_Horizontal
+M Series, 6.35mm (1/4in) stereo jack, switched, with half threaded nose and offset PCB pins, https://www.neutrik.com/en/product/nmj6hhd2
+neutrik jack m
+0
+6
+6
+pedale
+M3_25mm_spacer
+
+
+0
+0
+0
+pedale
+M3_hole_with_spacer
+Mounting Hole 3.2mm, M3, ISO14580
+mounting hole 3.2mm m3 iso14580
+0
+3
+1
+pedale
+big_muff_pi_front_plate
+
+
+0
+0
+0
+pedale
+floating_green_led
+
+
+0
+0
+0
+pedale
+floating_pot
+
+
+0
+0
+0
+pedale
+floating_pot_knob
+
+
+0
+0
+0
+pedale
+floating_red_led
+
+
+0
+0
+0
+pedale
+plated_pot_hole
+Mounting Hole 6.5mm
+mounting hole 6.5mm
+0
+1
+1
+pedale
+plated_switch_hole
+Mounting Hole 6.5mm
+mounting hole 6.5mm
+0
+1
+1
+pedale
+switch_DPDT
+C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+pedale
+top_screw
+
+
+0
+0
+0
+pedale
+tube_screamer_front_plate
+
+
+0
+0
+0
+switch
+switch_DPDT
+C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6

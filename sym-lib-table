@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pedale")(type "KiCad")(uri "${KIPRJMOD}/pedale.kicad_sym")(options "")(descr ""))
+)

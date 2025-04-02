@@ -119,4 +119,26 @@
 			(xyz -0 -90 -0)
 		)
 	)
+	(model "${KIPRJMOD}/pedale.pretty/M3x8 Philips Screw.stp"
+		(offset
+			(xyz 0 0 26)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KIPRJMOD}/pedale.pretty/M3x8 Philips Screw.stp"
+		(offset
+			(xyz 0 0 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
 )
