@@ -7,6 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "a56c8901-3582-41b2-b8f9-a0a05c08f7da")
 		(effects
 			(font
@@ -54,15 +55,16 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -0.1 0)
-		(end 0.1 0)
+	(fp_rect
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "249245a6-9281-423d-8d5d-59c1839b8e04")
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "c3be2348-40d0-4094-b1e3-9a0e38d0a145")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
@@ -79,13 +81,24 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/pedale.pretty/RV097NS.step"
 		(offset
-			(xyz -0.5 -7 18.5)
+			(xyz 0 -7 18.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz 90 90 -0)
+		)
+	)
+	(model "${KIPRJMOD}/pedale.pretty/Potentiometer knob_A15x17-PK-AB-K-I.stp"
+		(offset
+			(xyz 0 -0.75 32)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
 		)
 	)
 )

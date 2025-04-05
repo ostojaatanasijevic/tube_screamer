@@ -1,4 +1,4 @@
-(footprint "floating_red_led"
+(footprint "boss_DS1_front_plate"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "da461175-24f5-4421-a662-b7d5f436ab8a")
+		(uuid "87e5cad9-aa71-4f82-a600-c39687c502bb")
 		(effects
 			(font
 				(size 1 1)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "floating_red_led"
+	(property "Value" "boss_DS1_front_plate"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "96e779f2-1789-4c20-9d81-14e233b8f884")
+		(uuid "11f1f32e-5cb8-4aaa-8195-6c1fb0578064")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4b3122d7-0358-424e-b185-4fef0b0c4966")
+		(uuid "a43aa5cf-4602-4c13-a507-f031fdcf935c")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "04646682-009b-48b9-940f-dc7be41c842d")
+		(uuid "020f6c0a-60cf-45b2-bdc8-6f36a608ca89")
 		(effects
 			(font
 				(size 1 1)
@@ -64,13 +64,13 @@
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "9cd6ab38-7fd9-4aa1-a0a2-e8798f400e61")
+		(uuid "7491d475-fb51-475b-a456-61b03c8d2a6f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f3971731-55e9-4de9-8d13-f23e28985e9d")
+		(uuid "4ea6ffb6-f0db-4e51-b9d8-b43b21ef700b")
 		(effects
 			(font
 				(size 1 1)
@@ -79,15 +79,15 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/pedale.pretty/LED 3mm, Red, Thru-hole, Right Angle PCB 1.stp"
+	(model "${KIPRJMOD}/pedale.pretty/boss_DS1_front_plate.step"
 		(offset
-			(xyz 0 -2 23.5)
+			(xyz 0 0 25)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

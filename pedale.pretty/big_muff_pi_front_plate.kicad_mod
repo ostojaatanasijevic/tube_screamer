@@ -7,6 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "87e5cad9-aa71-4f82-a600-c39687c502bb")
 		(effects
 			(font
@@ -54,15 +55,16 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start -0.1 0)
-		(end 0.1 0)
+	(fp_rect
+		(start -0.1 -0.1)
+		(end 0.1 0.1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
-		(uuid "d6094f1e-5162-4c92-b505-9e2c0ec99070")
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "32d2f2ab-79f6-49a7-8957-abd5ceba29c7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
