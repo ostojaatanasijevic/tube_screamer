@@ -9,7 +9,7 @@
 		(at 6.35 -3 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e598d0bc-ae81-4f46-b811-51bb7b3a5b44")
+		(uuid "1aac60cb-1c73-419e-b9da-0d066a7ed0b2")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 	(property "Value" "Jack_6.35mm"
 		(at 6.35 19 0)
 		(layer "F.Fab")
-		(uuid "6cd862f3-5984-44d0-8f9a-ed1b4ca05a16")
+		(uuid "d70a5405-0f50-4cac-a270-1f43e2220a84")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a0b6004c-d265-4a73-b65c-c2cbf9b5bf2d")
+		(uuid "2ba461ac-b079-4b4a-927d-0675267b93ff")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3a2b06a7-89c1-45cc-b407-304032b45315")
+		(uuid "bf1753cd-ab65-4aea-adc4-dcdf7581ba88")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -207,16 +207,6 @@
 		)
 	)
 	(pad "R" thru_hole roundrect
-		(at 6.35 0)
-		(size 5.4 3)
-		(drill oval 4.4 1.4)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.3)
-		(thermal_bridge_angle 45)
-		(uuid "97258c61-4d74-44d7-97f0-191839cfc9e1")
-	)
-	(pad "RN" thru_hole roundrect
 		(at 6.35 16.23)
 		(size 5.4 3)
 		(drill oval 4.4 1.4)
@@ -226,17 +216,17 @@
 		(thermal_bridge_angle 45)
 		(uuid "5abadbcc-0911-499f-999d-4c0cfc559b1c")
 	)
-	(pad "S" thru_hole roundrect
-		(at 12.7 0)
+	(pad "RN" thru_hole roundrect
+		(at 6.35 0)
 		(size 5.4 3)
 		(drill oval 4.4 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.3)
 		(thermal_bridge_angle 45)
-		(uuid "350e5cae-a44f-490c-b4b0-93b730105fd2")
+		(uuid "97258c61-4d74-44d7-97f0-191839cfc9e1")
 	)
-	(pad "SN" thru_hole roundrect
+	(pad "S" thru_hole roundrect
 		(at 12.7 16.23)
 		(size 5.4 3)
 		(drill oval 4.4 1.4)
@@ -246,17 +236,17 @@
 		(thermal_bridge_angle 45)
 		(uuid "29fed548-dd7c-4699-aca6-de09b0f5e92a")
 	)
-	(pad "T" thru_hole roundrect
-		(at 0 0)
+	(pad "SN" thru_hole roundrect
+		(at 12.7 0)
 		(size 5.4 3)
 		(drill oval 4.4 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.3)
 		(thermal_bridge_angle 45)
-		(uuid "def822c5-d734-4703-89f6-531bb69b95ef")
+		(uuid "350e5cae-a44f-490c-b4b0-93b730105fd2")
 	)
-	(pad "TN" thru_hole roundrect
+	(pad "T" thru_hole roundrect
 		(at 0 16.23)
 		(size 5.4 3)
 		(drill oval 4.4 1.4)
@@ -265,6 +255,16 @@
 		(roundrect_rratio 0.3)
 		(thermal_bridge_angle 45)
 		(uuid "16662cc6-75e7-441e-ba07-f39b8cc8edc3")
+	)
+	(pad "TN" thru_hole roundrect
+		(at 0 0)
+		(size 5.4 3)
+		(drill oval 4.4 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(thermal_bridge_angle 45)
+		(uuid "def822c5-d734-4703-89f6-531bb69b95ef")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/pedale.pretty/Jack_6.35mm.STEP"
