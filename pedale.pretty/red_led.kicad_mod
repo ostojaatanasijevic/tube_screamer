@@ -1,0 +1,114 @@
+(footprint "red_led"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "da461175-24f5-4421-a662-b7d5f436ab8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "red_led"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "96e779f2-1789-4c20-9d81-14e233b8f884")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -5.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4b3122d7-0358-424e-b185-4fef0b0c4966")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -5.5 -3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04646682-009b-48b9-940f-dc7be41c842d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3 -2.5)
+		(end 3 8.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a2281dd5-c354-454a-9a23-0cd5dc888f33")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f3971731-55e9-4de9-8d13-f23e28985e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "af4dc96c-94e3-4fc1-96d5-f8ba24a2427c")
+	)
+	(pad "1" smd roundrect
+		(at -1.5 5.5)
+		(size 2 5)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1923076923)
+		(uuid "6f3d94d2-7a52-4df4-b459-a0927f4c406f")
+	)
+	(pad "2" smd roundrect
+		(at 1.5 5.5)
+		(size 2 5)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1923076923)
+		(uuid "8fdbdd57-ab29-487e-85f8-53b24c0005e9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/pedale.pretty/LED 3mm, Red, Thru-hole, Right Angle PCB 1.stp"
+		(offset
+			(xyz 0 -2 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)

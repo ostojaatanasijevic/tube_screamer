@@ -108,7 +108,7 @@
 		(uuid "4063bd6d-877c-483d-b57f-aa4d6bdb278b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/pedale.pretty/Abstandhalter M3 IG-IG 25mm - Messing.stp"
+	(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
 		(offset
 			(xyz 0 0 12)
 		)
@@ -119,7 +119,7 @@
 			(xyz -0 -90 -0)
 		)
 	)
-	(model "${KIPRJMOD}/pedale.pretty/M3x8 Philips Screw.stp"
+	(model "${KIPRJMOD}/../pedale.pretty/M3x8 Philips Screw.stp"
 		(offset
 			(xyz 0 0 26)
 		)
@@ -130,7 +130,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/pedale.pretty/M3x8 Philips Screw.stp"
+	(model "${KIPRJMOD}/../pedale.pretty/M3x8 Philips Screw.stp"
 		(offset
 			(xyz 0 0 -1.5)
 		)

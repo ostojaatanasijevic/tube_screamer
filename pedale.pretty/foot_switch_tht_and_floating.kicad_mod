@@ -150,7 +150,7 @@
 		(uuid "595ad716-9d29-4da7-a629-c5a65a384a10")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/pedale.pretty/dpdt_pci.stp"
+	(model "${KIPRJMOD}/../pedale.pretty/dpdt_pci.stp"
 		(offset
 			(xyz 0 0 0)
 		)

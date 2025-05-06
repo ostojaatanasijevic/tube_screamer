@@ -476,7 +476,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/pedale.pretty/9V-battery.stp"
+	(model "${KIPRJMOD}/../pedale.pretty/9V-battery.stp"
 		(offset
 			(xyz 41.5 26 4.5)
 		)

@@ -79,7 +79,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/pedale.pretty/big_muff_pi_front_plate.step"
+	(model "/home/ostoja/Elektronika/pedale/big_muff_pi/top_plate.step"
 		(offset
 			(xyz 0 0 25)
 		)

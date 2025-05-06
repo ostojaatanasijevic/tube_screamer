@@ -79,7 +79,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/pedale.pretty/tube_screamer_front_plate.step"
+	(model "/home/ostoja/Elektronika/pedale/tube_screamer/top_plate.step"
 		(offset
 			(xyz 0 0 25)
 		)
