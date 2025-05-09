@@ -79,7 +79,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/pedale.pretty/boss_DS1_front_plate.step"
+	(model "${KIPRJMOD}/../top_plate.step"
 		(offset
 			(xyz 0 0 25)
 		)

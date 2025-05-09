@@ -3428,7 +3428,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "33eb241d-2baa-4bd1-aa73-5149ae34658c")
-		(at 75 94.15 180)
+		(at 75 94.1 180)
 		(descr "https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf")
 		(tags "9V Battery Holder")
 		(property "Reference" "BT1"
@@ -4460,13 +4460,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "8edf67b1-80e1-4f10-8b98-1a93a593f415")
+			(uuid "0be46e86-b92d-400c-aa2e-11ae366dd61d")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "8edf67b1-80e1-4f10-8b98-1a93a593f415")
+			(uuid "4de41aea-86a2-471e-8c35-f3052f77c593")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
@@ -4609,13 +4609,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "12bede55-ae20-466b-8e09-61073e519adc")
+			(uuid "ca80fdb5-177d-48f2-af59-c1d866bac78e")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "12bede55-ae20-466b-8e09-61073e519adc")
+			(uuid "2aca89d5-972c-41f0-b602-ad180bbc98aa")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
@@ -8099,13 +8099,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "8a581d4e-8e4b-45c6-b861-02fb149296f5")
+			(uuid "24ef07a0-9a1a-4075-af99-fc1cc0b74d7f")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "8a581d4e-8e4b-45c6-b861-02fb149296f5")
+			(uuid "a702eb01-6bdf-42dc-9412-68c071d94779")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
@@ -9965,13 +9965,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "fbfc6843-b441-424d-b696-104e55b99b1e")
+			(uuid "350c66d5-3c24-40aa-abf5-f9a1aae582e1")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "fbfc6843-b441-424d-b696-104e55b99b1e")
+			(uuid "ca7ba87c-a106-43e6-a502-904532afb04c")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
@@ -17945,13 +17945,13 @@
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "F.Cu" "F.Mask")
-			(uuid "5080af7e-fbde-479b-99e0-21a1302a37dc")
+			(uuid "1106925b-0a65-4e9b-8098-fd942c580cc8")
 		)
 		(pad "1" connect circle
 			(at 0 0)
 			(size 5.5 5.5)
 			(layers "B.Cu" "B.Mask")
-			(uuid "5080af7e-fbde-479b-99e0-21a1302a37dc")
+			(uuid "64c38d3d-0b3c-4bb3-a469-f597ffc212d0")
 		)
 		(embedded_fonts no)
 		(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Abstandhalter M3 IG-IG 25mm - PA 66, weiß.stp"
