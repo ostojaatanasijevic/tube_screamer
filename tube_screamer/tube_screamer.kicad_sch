@@ -11141,7 +11141,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b86f7341-ea1d-45ad-ba20-facf71edf985")
 		(property "Reference" "P1"
