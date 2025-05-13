@@ -132,13 +132,24 @@
 	)
 	(model "${KIPRJMOD}/../pedale.pretty/M3x8 Philips Screw.stp"
 		(offset
-			(xyz 0 0 -1.5)
+			(xyz 0 0 -8)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -0 -180 -0)
+		)
+	)
+	(model "${KIPRJMOD}/../pedale.pretty/Abstandhalter M3 IG-AG 5mm+6mm - PA 66.stp"
+		(offset
+			(xyz 0 0 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 90 -0)
 		)
 	)
 )

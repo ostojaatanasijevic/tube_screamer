@@ -9222,6 +9222,70 @@
 		)
 	)
 	(symbol
+		(lib_id "pedale:tube_screamer_front_panel")
+		(at 40.64 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b3ae512-c7a9-4837-bfaa-61c3c0ae90a6")
+		(property "Reference" "P2"
+			(at 43.18 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "bottom_plate"
+			(at 43.18 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pedale:bottom_plate"
+			(at 40.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 40.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "tube_screamer"
+				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 138.43 189.23 0)
 		(unit 1)
@@ -11145,7 +11209,7 @@
 		(fields_autoplaced yes)
 		(uuid "b86f7341-ea1d-45ad-ba20-facf71edf985")
 		(property "Reference" "P1"
-			(at 27.94 107.9499 0)
+			(at 26.67 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11153,8 +11217,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "tube_screamer_front_panel"
-			(at 27.94 110.4899 0)
+		(property "Value" "front_plate"
+			(at 26.67 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11162,7 +11226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "pedale:tube_screamer_front_plate"
+		(property "Footprint" "pedale:front_plate"
 			(at 24.13 109.22 0)
 			(effects
 				(font
