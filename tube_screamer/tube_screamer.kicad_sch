@@ -6779,6 +6779,10 @@
 		(uuid "f0f890c8-3792-4588-a393-a5e153c606c0")
 	)
 	(no_connect
+		(at 257.81 119.38)
+		(uuid "0131f5dd-81d7-454f-ae1a-b43ca904676b")
+	)
+	(no_connect
 		(at 215.9 158.75)
 		(uuid "1919e3b5-98ef-486e-9a5e-58735b984bf2")
 	)
@@ -6787,12 +6791,40 @@
 		(uuid "2d82bc4c-b3d7-4946-8978-c1b527e16c3c")
 	)
 	(no_connect
+		(at 257.81 127)
+		(uuid "3f680165-bcea-4eaf-afd6-46da1dd0b355")
+	)
+	(no_connect
 		(at 215.9 156.21)
 		(uuid "4552295a-ace4-4d64-9602-139f2312c9c2")
 	)
 	(no_connect
+		(at 36.83 49.53)
+		(uuid "4d339346-6b76-4390-b8d2-38fc7f87f753")
+	)
+	(no_connect
+		(at 257.81 129.54)
+		(uuid "5bbed940-b281-480c-945d-36e8c23ac3e9")
+	)
+	(no_connect
+		(at 36.83 44.45)
+		(uuid "77213e44-b48c-4303-a01e-46ff1d85fb9b")
+	)
+	(no_connect
+		(at 257.81 124.46)
+		(uuid "964b8cdf-74e9-4de2-aabc-f7d5a819d11e")
+	)
+	(no_connect
 		(at 257.81 92.71)
 		(uuid "9a407f86-9fb0-4ee2-bb4d-3065633c018f")
+	)
+	(no_connect
+		(at 36.83 54.61)
+		(uuid "dc54967c-8af3-48d8-a716-c2bec88af04a")
+	)
+	(no_connect
+		(at 36.83 52.07)
+		(uuid "f3df85b3-bbf7-4b4a-87d7-34346142b25a")
 	)
 	(wire
 		(pts
@@ -15641,7 +15673,7 @@
 	)
 	(symbol
 		(lib_id "pedale:tube_screamer_front_panel")
-		(at 24.13 109.22 0)
+		(at 21.59 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15650,7 +15682,7 @@
 		(fields_autoplaced yes)
 		(uuid "b86f7341-ea1d-45ad-ba20-facf71edf985")
 		(property "Reference" "P1"
-			(at 26.67 107.9499 0)
+			(at 24.13 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15659,7 +15691,7 @@
 			)
 		)
 		(property "Value" "front_plate"
-			(at 26.67 110.4899 0)
+			(at 24.13 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15668,7 +15700,7 @@
 			)
 		)
 		(property "Footprint" "pedale:front_plate"
-			(at 24.13 109.22 0)
+			(at 21.59 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15677,7 +15709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 109.22 0)
+			(at 21.59 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15686,7 +15718,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 24.13 109.22 0)
+			(at 21.59 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
