@@ -121,14 +121,14 @@
   "schematic": {
     "selection_filter": {
       "graphics": false,
-      "images": true,
-      "labels": true,
+      "images": false,
+      "labels": false,
       "lockedItems": false,
-      "otherItems": true,
-      "pins": true,
+      "otherItems": false,
+      "pins": false,
       "symbols": true,
-      "text": true,
-      "wires": true
+      "text": false,
+      "wires": false
     }
   }
 }
