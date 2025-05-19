@@ -198,13 +198,6 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at 0 0)
-		(size 14 14)
-		(drill 7)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "b43fe5ba-1a05-45fc-9c0e-a5359f76a990")
-	)
 	(pad "1" smd roundrect
 		(at -5 14)
 		(size 3 5)
@@ -225,6 +218,14 @@
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(roundrect_rratio 0.1923076923)
 		(uuid "286584dc-6e7b-4754-8917-eb4649efc0e5")
+	)
+	(pad "MH" thru_hole circle
+		(at 0 0)
+		(size 14 14)
+		(drill 7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b43fe5ba-1a05-45fc-9c0e-a5359f76a990")
 	)
 	(embedded_fonts no)
 	(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/pot.STEP"
