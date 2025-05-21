@@ -1922,7 +1922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "pedale:IDC-Header_2x08_faux_SMD"
 			(at 45.72 53.34 0)
 			(effects
 				(font
@@ -2107,7 +2107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "pedale:IDC-Header_2x08_faux_SMD"
 			(at 241.3 138.43 0)
 			(effects
 				(font
@@ -2496,7 +2496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "pedale:IDC-Header_2x08_faux_SMD"
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -2672,7 +2672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "pedale:IDC-Header_2x08_faux_SMD"
 			(at 45.72 30.48 0)
 			(effects
 				(font
@@ -2993,7 +2993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "pedale:IDC-Header_2x08_faux_SMD"
 			(at 45.72 110.49 0)
 			(effects
 				(font
@@ -3172,7 +3172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "pedale:IDC-Header_2x08_faux_SMD"
 			(at 254 134.62 0)
 			(effects
 				(font
@@ -3563,7 +3563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "pedale:bottom_connector"
+		(property "Footprint" "pedale:IDC-Header_2x08_faux_SMD"
 			(at 45.72 74.93 0)
 			(effects
 				(font
