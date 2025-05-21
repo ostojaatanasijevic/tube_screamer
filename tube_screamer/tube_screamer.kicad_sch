@@ -10127,7 +10127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pedale:foot_switch_tht_and_floating"
+		(property "Footprint" "pedale:foot_switch_tht_no_pad"
 			(at 240.03 93.98 0)
 			(effects
 				(font
@@ -11676,7 +11676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "pedale:foot_switch_tht_and_floating"
+		(property "Footprint" "pedale:foot_switch_tht_no_pad"
 			(at 165.1 119.38 0)
 			(effects
 				(font

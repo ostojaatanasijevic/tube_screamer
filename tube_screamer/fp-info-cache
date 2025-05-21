@@ -1,4 +1,4 @@
-45418602537296
+47170937429100
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99631,6 +99631,13 @@ switch DPDT
 6
 6
 pedale
+foot_switch_tht_no_pad
+C&K sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+pedale
 front_plate
 
 
@@ -99677,8 +99684,8 @@ top_plate_pot
 Potentiometer, vertical, bottom-adjust, single slot, Bourns 3314R-1, http://www.bourns.com/docs/Product-Datasheets/3314.pdf
 Potentiometer vertical hole Bourns 3314R-1
 0
-3
-3
+4
+4
 pedale
 top_screw
 
