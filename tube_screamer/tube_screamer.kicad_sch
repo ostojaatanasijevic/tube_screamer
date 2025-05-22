@@ -9595,6 +9595,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 93.98 128.27 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10fbe784-de71-4b8a-aff3-f6f8e07382f0")
+		(property "Reference" "R26"
+			(at 91.44 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 91.44 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 95.758 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 93.98 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0668c81f-85e7-482e-aa0a-bde69eaae257")
+		)
+		(pin "2"
+			(uuid "90157c49-46a7-4c0c-8083-0a54d34e2a82")
+		)
+		(instances
+			(project "tube_screamer"
+				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pedale:top_panel_connector")
 		(at 181.61 163.83 0)
 		(unit 6)
@@ -10656,83 +10734,6 @@
 			(project "tube_screamer"
 				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
 					(reference "#GND05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 227.33 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26c5397e-31c2-4eeb-b59d-3d22491b6009")
-		(property "Reference" "R28"
-			(at 225.806 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 225.298 100.838 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 229.108 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 227.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 227.33 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0bd7019-0301-433c-b282-231938ebde39")
-		)
-		(pin "2"
-			(uuid "cc291481-d622-48e1-ad7f-a35e1c240ce3")
-		)
-		(instances
-			(project "tube_screamer"
-				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
-					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -13355,6 +13356,84 @@
 			(project "tube_screamer"
 				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
 					(reference "#GND020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227.33 100.33 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "834901fc-6fd7-4b1e-a593-856831322d71")
+		(property "Reference" "R28"
+			(at 224.79 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 224.79 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 229.108 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C4190"
+			(at 227.33 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d701729d-271c-4dc8-95a5-d500fc620112")
+		)
+		(pin "2"
+			(uuid "c8b7c935-deff-48ea-863e-8d1e78fce803")
+		)
+		(instances
+			(project "tube_screamer"
+				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -16853,83 +16932,6 @@
 			(project "tube_screamer"
 				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 93.98 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc3f992b-96e0-4afa-9d76-ae6f9800ad44")
-		(property "Reference" "R26"
-			(at 92.456 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 91.948 128.778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 95.758 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 93.98 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef25755f-3a68-4ef6-9547-aab0cdd81b05")
-		)
-		(pin "2"
-			(uuid "80b33c7d-fb22-4020-8604-1ecb487a4c36")
-		)
-		(instances
-			(project "tube_screamer"
-				(path "/e0801131-6974-42d8-8070-4ed960891aa7"
-					(reference "R26")
 					(unit 1)
 				)
 			)

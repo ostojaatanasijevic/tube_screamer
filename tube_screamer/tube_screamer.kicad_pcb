@@ -1164,7 +1164,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "84bcc0d1-8dda-4a33-b1bf-5261a56fadd2")
@@ -1201,7 +1201,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1215,7 +1215,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/26c5397e-31c2-4eeb-b59d-3d22491b6009")
+		(path "/834901fc-6fd7-4b1e-a593-856831322d71")
 		(sheetname "/")
 		(sheetfile "tube_screamer.kicad_sch")
 		(attr smd)
@@ -1335,7 +1335,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 38 "Net-(J9D-Pin_8)")
+			(net 48 "/RED_LED")
 			(pintype "passive")
 			(uuid "cf54ba12-7d6a-4fe2-89e7-abab3ac5796d")
 		)
@@ -1344,7 +1344,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 48 "/RED_LED")
+			(net 38 "Net-(J9D-Pin_8)")
 			(pintype "passive")
 			(uuid "1df18b81-a2a3-4ac5-8978-eb7a674d0e0f")
 		)
@@ -7302,7 +7302,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9b181a78-a93d-4644-a027-0ff804f09b57")
@@ -7339,7 +7339,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7353,7 +7353,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/fc3f992b-96e0-4afa-9d76-ae6f9800ad44")
+		(path "/10fbe784-de71-4b8a-aff3-f6f8e07382f0")
 		(sheetname "/")
 		(sheetfile "tube_screamer.kicad_sch")
 		(attr smd)
@@ -7473,7 +7473,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "Net-(J9E-Pin_10)")
+			(net 12 "9V")
 			(pintype "passive")
 			(uuid "94429b79-22a6-4ff5-ac5e-21a51c455355")
 		)
@@ -7482,7 +7482,7 @@
 			(size 0.975 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 12 "9V")
+			(net 40 "Net-(J9E-Pin_10)")
 			(pintype "passive")
 			(uuid "f12fe074-10ed-4a42-baf8-836ac722e15c")
 		)
@@ -10738,7 +10738,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/bfd3ba80-d3cd-469c-a44c-e7b1634df9da")
+		(path "/7cf27bd4-0c64-4995-a925-af434c9938ba")
 		(sheetname "/")
 		(sheetfile "tube_screamer.kicad_sch")
 		(attr through_hole)
