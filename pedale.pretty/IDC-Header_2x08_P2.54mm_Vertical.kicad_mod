@@ -1,4 +1,4 @@
-(footprint "IDC-Header_2x08_faux_SMD"
+(footprint "IDC-Header_2x08_P2.54mm_Vertical"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "IDC-Header_2x08_faux_SMD"
+	(property "Value" "IDC-Header_2x08_P2.54mm_Vertical"
 		(at 1.27 23.88 0)
 		(layer "F.Fab")
 		(uuid "9a97e83f-b5b6-44ba-992c-1216e5558ef3")
@@ -55,6 +55,36 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -4.68 -0.5)
+		(end -4.68 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1858961f-8db5-45aa-9e59-9c83d76d610c")
+	)
+	(fp_line
+		(start -4.68 0.5)
+		(end -3.68 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8547a9c7-fca9-410c-a0ba-9738b112a676")
+	)
+	(fp_line
+		(start -3.68 0)
+		(end -4.68 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb2453f7-6bf2-4e80-b0b0-3cb01adb54c9")
+	)
+	(fp_line
 		(start -3.29 -5.21)
 		(end 5.83 -5.21)
 		(stroke
@@ -65,8 +95,8 @@
 		(uuid "d3813465-8af6-41a8-93ca-3811a965e25a")
 	)
 	(fp_line
-		(start -3.29 6.4)
-		(end -2.635 6.4)
+		(start -3.29 6.84)
+		(end -1.98 6.84)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,8 +115,8 @@
 		(uuid "21819440-5f68-4fb5-b868-412da161562e")
 	)
 	(fp_line
-		(start -2.635 -3.91)
-		(end 5 -3.91)
+		(start -1.98 -3.91)
+		(end 4.52 -3.91)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -95,8 +125,8 @@
 		(uuid "79e8684b-0065-4856-bcaa-d38d3be0414e")
 	)
 	(fp_line
-		(start -2.635 6.4)
-		(end -2.635 -3.91)
+		(start -1.98 6.84)
+		(end -1.98 -3.91)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -105,8 +135,8 @@
 		(uuid "f17199d3-1586-428c-b298-6c1df46dd29f")
 	)
 	(fp_line
-		(start -2.635 11.4)
-		(end -3.29 11.4)
+		(start -1.98 10.94)
+		(end -3.29 10.94)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -115,8 +145,18 @@
 		(uuid "72c7f60e-6557-4bc4-a88a-6b7da986b27e")
 	)
 	(fp_line
-		(start -2.635 21.69)
-		(end -2.635 11.4)
+		(start -1.98 10.94)
+		(end -1.98 10.94)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7451e0b9-aee6-4d05-bd4f-cb11c80cc09c")
+	)
+	(fp_line
+		(start -1.98 21.69)
+		(end -1.98 10.94)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -125,8 +165,8 @@
 		(uuid "10c2e0fa-3b9c-4ef5-a4ab-c87c421b9565")
 	)
 	(fp_line
-		(start 5 -3.91)
-		(end 5 21.69)
+		(start 4.52 -3.91)
+		(end 4.52 21.69)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -135,8 +175,8 @@
 		(uuid "b3d5acf9-ff05-4dd1-993c-0ce659b7ed11")
 	)
 	(fp_line
-		(start 5 21.69)
-		(end -2.635 21.69)
+		(start 4.52 21.69)
+		(end -1.98 21.69)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -345,151 +385,150 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
-		(at -0.2 0)
-		(size 3.31 1.2)
-		(drill
-			(offset -0.575 0)
-		)
-		(layers "F.Cu" "F.Mask")
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.147059)
 		(uuid "dd74ec4b-2b43-4161-bcf4-b2df298c9408")
 	)
-	(pad "2" smd roundrect
-		(at 3.345 0)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "d063f2de-e2d3-4e0a-9ea2-e3d7bb70e41a")
 	)
-	(pad "3" smd roundrect
-		(at -0.775 2.54)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "3" thru_hole circle
+		(at 0 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "939e8264-918f-4e03-8273-54cd77daa0f5")
 	)
-	(pad "4" smd roundrect
-		(at 3.345 2.54)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "4" thru_hole circle
+		(at 2.54 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "4aedfe41-a99d-4de5-8452-2451c342285c")
 	)
-	(pad "5" smd roundrect
-		(at -0.775 5.08)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "5" thru_hole circle
+		(at 0 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "dc10f1ac-e4bd-4e1b-a111-638ec1e50d8f")
 	)
-	(pad "6" smd roundrect
-		(at 3.345 5.08)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "6" thru_hole circle
+		(at 2.54 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "a61109c4-7ad6-40b8-bd28-fb7ba7ed9a68")
 	)
-	(pad "7" smd roundrect
-		(at -0.775 7.62)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "7" thru_hole circle
+		(at 0 7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "67e495ad-948f-4ce6-8add-915fee9eff1c")
 	)
-	(pad "8" smd roundrect
-		(at 3.345 7.62)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "8" thru_hole circle
+		(at 2.54 7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "de95498d-c2ea-4f2e-a064-f331db707e94")
 	)
-	(pad "9" smd roundrect
-		(at -0.775 10.16)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "9" thru_hole circle
+		(at 0 10.16)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "9ad2cab2-89f6-4eb8-b5ea-c8c27bb8f87e")
 	)
-	(pad "10" smd roundrect
-		(at 3.345 10.16)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "10" thru_hole circle
+		(at 2.54 10.16)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "b868d112-6962-499f-862e-b5045df4170d")
 	)
-	(pad "11" smd roundrect
-		(at -0.775 12.7)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "11" thru_hole circle
+		(at 0 12.7)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "5c99debb-6c01-41b7-92ac-8e5445672979")
 	)
-	(pad "12" smd roundrect
-		(at 3.345 12.7)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "12" thru_hole circle
+		(at 2.54 12.7)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "fd8f5d74-a4d3-4bfd-a014-c5f1f6a13bff")
 	)
-	(pad "13" smd roundrect
-		(at -0.775 15.24)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "13" thru_hole circle
+		(at 0 15.24)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "a9cb49c9-b791-4d61-a7d8-99a29caf15d2")
 	)
-	(pad "14" smd roundrect
-		(at 3.345 15.24)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "14" thru_hole circle
+		(at 2.54 15.24)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "965a9309-7b44-44c4-9d4e-94942da1014b")
 	)
-	(pad "15" smd roundrect
-		(at -0.775 17.78)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "15" thru_hole circle
+		(at 0 17.78)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "9194e7da-bcb3-4408-911d-cbd66084cb12")
 	)
-	(pad "16" smd roundrect
-		(at 3.345 17.78)
-		(size 3.31 1.2)
-		(layers "F.Cu" "F.Mask")
-		(roundrect_rratio 0.1470588235)
-		(thermal_bridge_angle 45)
+	(pad "16" thru_hole circle
+		(at 2.54 17.78)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "7ec0adcb-cedd-44aa-b469-fab2f4965834")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../pedale.pretty/IDC-Header_2x08_P2.54mm_Vertical.stp"
+	(model "${KICAD9_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x08_P2.54mm_Vertical.wrl"
 		(offset
-			(xyz 0 0 3)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 90)
+			(xyz 0 0 0)
 		)
 	)
 	(model "${KIPRJMOD}/../pedale.pretty/IDC_female_16_no_strain.step"
 		(offset
-			(xyz 1.5 -8.9 12)
+			(xyz 1.5 -8.9 9.5)
 		)
 		(scale
 			(xyz 1 1 1)

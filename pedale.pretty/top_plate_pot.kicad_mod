@@ -228,7 +228,7 @@
 		(uuid "b43fe5ba-1a05-45fc-9c0e-a5359f76a990")
 	)
 	(embedded_fonts no)
-	(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/pot.STEP"
+	(model "${KIPRJMOD}/../pedale.pretty/pot.STEP"
 		(offset
 			(xyz 0 0 -5)
 		)
@@ -239,7 +239,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "/home/ostoja/Elektronika/pedale/big_muff_pi/pedale.pretty/Potentiometer knob_A15x17-PK-AB-K-I.stp"
+	(model "${KIPRJMOD}/../pedale.pretty/Potentiometer knob_A15x17-PK-AB-K-I.stp"
 		(offset
 			(xyz 0 0 7.5)
 		)
