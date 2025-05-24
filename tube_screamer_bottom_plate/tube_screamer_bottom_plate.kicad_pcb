@@ -123,9 +123,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -1315,150 +1315,6 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "558efacc-31dd-442c-9ae2-2641941a677c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(footprint "pedale:TI logo"
-		(layer "B.Cu")
-		(uuid "abe74332-bf45-4147-adf6-9163bb6ab090")
-		(at 150.4 79.8 180)
-		(property "Reference" "REF**"
-			(at 0 0.2 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "7d06c305-636a-44f4-a834-af0d01754606")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "TI logo"
-			(at 0 -1 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "4a7f2b3e-1f3f-4667-8ada-db3912e7961b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at -5.5 3.5 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2dfee316-4351-4082-bcb0-b27f2eccdd6f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at -5.5 3.5 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0589f436-e680-4ba2-a525-30e973a63234")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(attr through_hole)
-		(fp_rect
-			(start -1.6 1.6)
-			(end 1.6 1.1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.SilkS")
-			(uuid "e6d24955-2507-4001-8fc0-dc9adcc8725b")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3 0)
-			(stroke
-				(width 0.5)
-				(type default)
-			)
-			(fill no)
-			(layer "B.SilkS")
-			(uuid "8a93899d-6304-4321-afae-9100bab0825d")
-		)
-		(fp_poly
-			(pts
-				(xy 0.4 0.2) (xy 0.9 0.5) (xy 0.9 1.3) (xy 0.4 1.3)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.SilkS")
-			(uuid "55b7887e-23b9-4052-8384-2eeeef093082")
-		)
-		(fp_poly
-			(pts
-				(xy 0.4 -1.9) (xy 0.4 -0.1) (xy 0.9 0.2) (xy 0.9 -1.9)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.SilkS")
-			(uuid "d71f792c-01b2-422c-8085-17fac282e5a7")
-		)
-		(fp_poly
-			(pts
-				(xy -0.9 -1.9) (xy -0.9 1.2) (xy -0.4 1.2) (xy -0.4 -1.9)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.SilkS")
-			(uuid "2e27e244-549e-4beb-aea9-a4774823dc1f")
-		)
-		(fp_rect
-			(start -3.4 3.3)
-			(end 3.4 -3.3)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "B.CrtYd")
-			(uuid "34166e85-00f8-4e54-ac67-4e0ec0e4e91e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "02d90245-3338-4c90-9c3b-24d0f9234b79")
 			(effects
 				(font
 					(size 1 1)
