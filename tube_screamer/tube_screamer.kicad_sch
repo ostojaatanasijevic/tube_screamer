@@ -10002,6 +10002,7 @@
 	(symbol
 		(lib_id "pedale:pedala_switch")
 		(at 240.03 93.98 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10009,7 +10010,7 @@
 		(dnp yes)
 		(uuid "1adc8e0b-b723-4519-a860-87373922b57c")
 		(property "Reference" "SW1"
-			(at 240.03 85.09 0)
+			(at 240.03 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10017,7 +10018,7 @@
 			)
 		)
 		(property "Value" "pedala_switch"
-			(at 240.03 87.63 0)
+			(at 240.03 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
