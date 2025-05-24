@@ -1,4 +1,4 @@
-# Tube screamer clone
+# TPI pedals - TBSCR
 
 ![side_view](tube_screamer/tube_screamer_side.png)
 ![top_view](tube_screamer/tube_screamer_bottom.png)
